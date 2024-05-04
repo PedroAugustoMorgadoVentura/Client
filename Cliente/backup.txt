@@ -1,0 +1,14 @@
+    def updater(oldname, oldphone, oldemail, oldaddress, oldpassword):
+
+    
+        
+
+        
+        new_name = input(f"New name ({oldname}): ")
+        new_phone = int(input(f"New phone ({oldphone}): "))
+        new_email = input(f"New email ({oldemail}): ")
+        new_address = input(f"New address ({oldaddress})")
+        new_password = input(f"New password ({oldpassword})")
+        updated_client = input(id, new_name, new_phone, new_email, new_address, new_password)
+        ClientRepo.update_client(updated_client)
+    updater(oldname, oldphone, oldemail, oldaddress, oldpassword)
